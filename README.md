@@ -3,3 +3,4 @@ Updated documentation
 Refactored code
 Added test notes
 Finalized classes
+Ready for submission
