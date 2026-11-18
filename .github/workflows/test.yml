@@ -20,4 +20,4 @@ jobs:
           distribution: 'temurin'
 
       - name: Build with Maven
-        run: cd QuickChatPOE && mvn clean test
+        run: cd QuickChatPOE  mvn clean test
