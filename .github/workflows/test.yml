@@ -20,7 +20,4 @@ jobs:
           distribution: 'temurin'
 
       - name: Build with Maven
-        defaults:
-          run:
-            working-directory: ./QuickChatPOE
-        run: mvn test
+        run: mvn clean test -f QuickChatPOE/pom.xml
